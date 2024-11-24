@@ -3,7 +3,7 @@ name: Java CI with Maven
 on:
   # Schedule the workflow to run at 9:00 PM IST (3:30 PM UTC)
   schedule:
-    - cron: "30 15 * * *"
+    - cron: "35 15 * * *"
 
   workflow_dispatch:  # Manual trigger for flexibility
     inputs:
