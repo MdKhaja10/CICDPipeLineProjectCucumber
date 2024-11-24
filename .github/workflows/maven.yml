@@ -29,7 +29,7 @@ on:
 jobs:
   build:
 
-    runs-on: Cicd123
+    runs-on: Cicd1234
 
     steps:
     - name: Checkout Repository
