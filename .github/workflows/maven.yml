@@ -49,7 +49,7 @@ jobs:
         cache: maven
 
     - name: Build and Test with Maven
-      run: mvn clean test -D"dataproviderthreadcount"="3" -D"cucumber.filter.tags"="@Regression"
+      run: mvn clean test -D"dataproviderthreadcount"="3" -D"cucumber.filter.tags"="@ShoppingToCart"
 
     - name: Generate Cucumber HTML Report
       run: mvn verify -DskipTests=true -D"cucumber.report.output.name"="cucumber-html-report"
