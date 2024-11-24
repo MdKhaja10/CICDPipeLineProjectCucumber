@@ -2,7 +2,7 @@ Feature: As a tester I want to validate the  Amazon Application
   Background:
     Given Navigate to  Amazon Application
     
-  @Regression @ShoppingToCart1
+  @Regression @ShoppingToCart
    Scenario: Validate zoom in of search product
     And Search for "Samsung S22 Mobiles" from the search field
     When Click on the searched product
